@@ -1,5 +1,4 @@
 body{
-    background-color: #000;
     font-family: var(--font-dm-sans);
 }
 
@@ -13,7 +12,7 @@ body{
 }
 
 .navigation-bar, .library{
-    background-color: #121212;
+    background-color: var(--color-2);
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
@@ -36,7 +35,7 @@ body{
 }
 
 .navigation-bar ul li a{
-    color: #b3b3b3;
+    color: var(--color-3);
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
@@ -48,7 +47,7 @@ body{
 }
 
 .navigation-bar ul li a:hover{
-    color: #fff;
+    color: var(--color-4);
 }
 
 .library{
@@ -60,7 +59,7 @@ body{
 }
 
 .library .your-lib{
-    color: #b3b3b3;
+    color: var(--color-3);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -68,14 +67,14 @@ body{
 }
 
 .library .your-lib button{
-    background-color: #121212;
-    color: #b3b3b3;
+    background-color: var(--color-2);
+    color: var(--color-3);
     font-size: 16px;
     font-weight: 600;
 }
 
 .library .your-lib button:hover{
-    color: #fff;
+    color: var(--color-4);
 }
 
 .library .your-lib .fa-plus{
@@ -85,12 +84,12 @@ body{
 
 .library .your-lib .fa-plus:hover{
     cursor: pointer;
-    color: #f0f0f0;
-    background-color: #242424;
+    color: var(--color-5);
+    background-color: var(--color-6);
 }
 
 .library .create-playlist{
-    background-color: #242424;
+    background-color: var(--color-6);
     border-radius: 8px;
     padding: 12px 20px 16px 20px;
     display: flex;
@@ -98,7 +97,7 @@ body{
 }
 
 .library .create-playlist span{
-    color: #fff;
+    color: var(--color-4);
     margin: 4px 0 9px 0;
 }
 
@@ -109,8 +108,8 @@ body{
 
 .library .create-playlist button{
     border-radius: 20px;
-    background-color: #fff;
-    color: #000;
+    background-color: var(--color-4);
+    color: var(--color-1);
     margin-top: 20px;
     width: 113px;
     font-weight: 600;
@@ -119,7 +118,7 @@ body{
 }
 
 .library .cookies{
-    color: #b3b3b3;
+    color: var(--color-3);
     font-size: 10px;
     text-decoration: none;
     margin: 32px 19px;
@@ -131,8 +130,8 @@ body{
 }
 
 .library .language-btn{
-    color: #fff;
-    border: 1px solid #878787;
+    color: var(--color-4);
+    border: 1px solid var(--color-7);
     border-radius: 20px;
     background-color: transparent;
     width: 170px;
@@ -143,13 +142,13 @@ body{
 
 .library .language-btn:hover{
     transform: scale(1.04);
-    border-color: #e2e2e2;
+    border-color: var(--color-8);
 }
 
 footer{
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(to right, #ae2896, #509bf5);
+    background: linear-gradient(to right, var(--color-9), var(--color-10));
     position: fixed;
     bottom: 0;
     left: 0;
@@ -163,7 +162,7 @@ footer:hover{
 
 .footer-info{
     font-size: 14px;
-    color: #fff;
+    color: var(--color-4);
 }
 
 .footer-info p{
@@ -175,15 +174,15 @@ footer:hover{
 }
 
 .footer-btn{
-    background-color: #fff;
+    background-color: var(--color-4);
     border-radius: 30px;
-    color: #000;
+    color: var(--color-1);
     font-weight: 700;
     padding: 9px 32px;
     font-size: 16px;
 }
 
 .library .create-playlist button:hover, .footer-btn:hover{
-    background-color: #e2e2e2;
+    background-color: var(--color-8);
     transform: scale(1.04);
 }
