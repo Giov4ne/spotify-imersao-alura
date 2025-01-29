@@ -1,6 +1,6 @@
 body{
     background-color: #000;
-    font-family: "DM Sans", sans-serif;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar{
@@ -187,4 +187,3 @@ footer:hover{
     background-color: #e2e2e2;
     transform: scale(1.04);
 }
-
