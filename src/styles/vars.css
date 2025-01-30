@@ -13,4 +13,9 @@
     --color-8: #e2e2e2;
     --color-9: #ae2896;
     --color-10: #509bf5;
+
+    /* OTHER */
+    --grid-gap: 24px;
+    --column-count: 5;
+    --min-container-width: 372px;
 }
