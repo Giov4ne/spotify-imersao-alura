@@ -102,8 +102,6 @@
     transform: scale(1.04);
 }
 
-/* dasdasdasdasdasdasd */
-
 main{
     height: 68vh;
     padding-top: 16px;
@@ -143,7 +141,7 @@ main{
   .offer__scroll-container::-webkit-scrollbar-thumb{
     background-color: transparent;
 }
-  /* FIM SCROLL */
+  /* SCROLL END */
   
   .offer__list-item{
     display: grid;
@@ -216,7 +214,7 @@ main{
   .card15{
     background: rgb(60, 30, 80);
 }
-  /* FIM COLOR CARDS */
+  /* COLOR CARDS END */
   
   .offer__list-item img{
     position: absolute;
@@ -227,7 +225,7 @@ main{
     transform: rotate(25deg) translate(18%, -2%);
 }
   
-  /* CARD ARTISTA */
+  /* CARD ARTIST */
   
   .artist{
     --column-count: 5;
