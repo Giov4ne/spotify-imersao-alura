@@ -80,10 +80,10 @@ body{
 .library .your-lib .fa-plus{
     border-radius: 50%;
     padding: 7px 8px;
+    cursor: pointer;
 }
 
 .library .your-lib .fa-plus:hover{
-    cursor: pointer;
     color: var(--color-5);
     background-color: var(--color-6);
 }
@@ -154,9 +154,6 @@ footer{
     left: 0;
     right: 0;
     padding: 15px 40px;
-}
-
-footer:hover{
     cursor: pointer;
 }
 
