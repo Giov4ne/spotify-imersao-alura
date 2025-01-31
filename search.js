@@ -1,3 +1,6 @@
+// Instalar json-server: npm i json-server -g
+// Definir porta para a API: json-server --watch api-artists/artists.json --port 3000 (ou qualquer outro valor)
+
 const searchInput = document.getElementById('search-input');
 const resultArtist = document.getElementById('result-artist');
 const resultPlaylist = document.getElementById('result-playlists');
