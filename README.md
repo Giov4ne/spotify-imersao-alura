@@ -3,6 +3,7 @@
 ## 📚 Sobre
 
 Este é um projeto do curso de Imersão Front-End da Alura. O objetivo é a construção de uma página inicial inspirada no serviço de streaming musical do Spotify, aprimorando, assim, os conhecimentos no ramo Front-End.
+#Imersao-front-end-alura
 
 ## 💻 Tecnologias Utilizadas
 
