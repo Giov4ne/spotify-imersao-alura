@@ -6,7 +6,9 @@ Este é um projeto do curso de Imersão Front-End da Alura. O objetivo é a cons
 
 ## 💻 Tecnologias Utilizadas
 
-* HTML5;
-* CSS3.
+* HTML5
+* CSS3
+* Javascript
+* Node.js
 
 ### Desenvolvido com 💗 por [Giovane](https://github.com/Giov4ne).

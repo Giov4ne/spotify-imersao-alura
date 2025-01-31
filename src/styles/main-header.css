@@ -240,8 +240,19 @@ main{
   .grid-container{
     grid-gap: var(--grid-gap);
     display: grid;
-    grid-template-columns: repeat(var(--column-count), minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     min-width: var(--min-container-width);
+    height: 62vh;
+    max-width: 68vw;
+    overflow-y: auto;
+}
+
+  .grid-container::-webkit-scrollbar{
+    width: 1px;
+}
+
+  .grid-container::-webkit-scrollbar-thumb{
+    background-color: transparent;
 }
   
   .artist-card{
@@ -254,6 +265,8 @@ main{
     position: relative;
     transition: background-color 0.3s ease;
     width: 100%;
+    cursor: default;
+    max-height: 290px;
 }
   
   .artist-card:hover{
@@ -313,7 +326,7 @@ main{
   .play .fa-play{
     position: absolute;
     right: 10px;
-    top: 120px;
+    top: 162px;
     padding: 18px;
     background-color: #1db954;
     border-radius: 100%;
@@ -333,5 +346,5 @@ main{
 }
   
   #result-artist{
-    padding: 20px 40px;
+    padding: 20px 24px;
 }
